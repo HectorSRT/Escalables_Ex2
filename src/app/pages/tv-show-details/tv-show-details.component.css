@@ -1,0 +1,10 @@
+.imagen {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h2 {
+  color: rgb(14, 43, 33);
+}

@@ -1,0 +1,12 @@
+<p>Informacion del programa {{ showName }}</p>
+
+@if (show) {
+<h2>{{ show.name }}</h2>
+<img [src]="show.image" alt="{{ show.name }}" class="imagen" />
+<p>Descripción: {{ show.description }}</p>
+<p>Año: {{ show.year }}</p>
+<p>Género: {{ show.genre }}</p>
+<p>Episodios: {{ show.episodes }}</p>
+} @else {
+<p style="color: red">No se encontró el show</p>
+}
